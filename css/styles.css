@@ -1,16 +1,18 @@
-[
+
   {
     "type": "header",
     "subtype": "h1",
     "label": "Header",
     "access": false
   },
+
   {
     "type": "paragraph",
     "subtype": "p",
     "label": "Paragraph",
     "access": false
   },
+
   {
     "type": "radio-group",
     "required": false,
@@ -19,7 +21,7 @@
     "name": "radio-group0",
     "access": false,
     "other": false,
-    "values": [
+    "values": 
  {
         "label": "Option 1",
         "value": "option-1",
@@ -35,8 +37,9 @@
         "value": "option-3",
         "selected": false
       }
-    ]
+    
   },
+
   {
     "type": "button",
     "label": "Button",
@@ -46,4 +49,3 @@
     "access": false,
     "style": "default"
   }
-]

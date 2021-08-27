@@ -7,8 +7,12 @@ function PizzaParlor(topping, size, cost) {
   this.cost = 0;
 }
 
-PizzaParlor.prototype.orderPizza = function () { };
-PizzaParlor.prototype.costOfOrder = function () { };
+PizzaParlor.prototype.orderPizza = function (){};
+PizzaParlor.prototype.costOfOrder = function (){};
 
 //User Interface
-$(document).ready(function ()
+$(document).ready(function (){
+$("form#pizzaOrder").submit(function(event){
+event.preventDefault();
+const userToppingSelection = $("input:radio[name='topping').attr("id");
+});
