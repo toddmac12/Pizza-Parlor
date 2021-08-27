@@ -67,10 +67,9 @@ Expected Output: {
   topping: "chesse"
 }
 
-2 Test: 
+2 Test: add list to pizza constuctor, toppings, size, cost
 
 Code: 
-
 Expected Output: 
 
 3 Test: 
