@@ -67,16 +67,16 @@ Expected Output: {
   topping: "chesse"
 }
 
-2 Test: add list to pizza constuctor, toppings, size, cost
+2 Test: add prototype fucntion to order pizza toppings and size.
 
-Code: 
-Expected Output: 
+Code: this.topping ="mushroom"
+Expected Output: "mushroom"
 
-3 Test: 
+3 Test: add prototype function to calcaulate cost of pizza order by size.
 
-Code: 
+Code: this.size ="large"
 
-Expected Output: 
+Expected Output:"large" 
 4 
 Test: 
 
