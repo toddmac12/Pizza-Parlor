@@ -11,8 +11,14 @@ PizzaParlor.prototype.orderPizza = function (){};
 PizzaParlor.prototype.costOfOrder = function (){};
 
 //User Interface
-$(document).ready(function (){
-$("form#pizzaOrder").submit(function(event){
-event.preventDefault();
-const userToppingSelection = $("input:radio[name='topping').attr("id");
+$(document).ready(function() {
+    $('button').click(function() {
+        var value = $("input[type=radio][name=topping]:checked").val();
+        if (value) {
+            alert(value);
+        }
+        else {
+            alert('Nothing is selected');
+        }
+    })
 });
