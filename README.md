@@ -12,7 +12,7 @@ CSS
 Bootstrap
 VSCode
 
-## Description
+### Description
 
 Project
 Pizza Parlor
@@ -51,6 +51,46 @@ Style your site with CSS and images.
 Allow users to order more than one pizza with different toppings.
 Display the list of pizzas ordered as links that can be clicked for details.
 Offer a delivery option that then requires address information.
+
+## Test
+1 Test: pizza object constructor with properties for toppings size, cost. 
+
+Code: function PizzaParlor(topping, size, cost){
+    this.topping = topping;
+    this.size = size;
+    this.cost =1;}
+const pizzaChesse = new PizzaParlor ("chesse","large","10");
+
+Expected Output: {
+  cost: 1,
+  size: "large",
+  topping: "chesse"
+}
+
+2 Test: 
+
+Code: 
+
+Expected Output: 
+
+3 Test: 
+
+Code: 
+
+Expected Output: 
+4 
+Test: 
+
+Code: 
+
+Expected Output: 
+5 
+Test: 
+
+Code: 
+
+Expected Output: 
+
 
 ## Setup/Installation Requirements
 
