@@ -16,7 +16,7 @@
     <div>
       <div>
         <p>Select first topping:</p>
-        <input type="radio" id="pepperoni" name="topping" value="pepperoni">
+        <input type="radio" id="pepperoni" name="topping" value="pepperoni" checked="checked">
         <label for="pepperoni">Pepperoni</label>
         <input type="radio" id="sausage" name="topping" value="sausage">
         <label for="sausage">Sausage</label>
@@ -25,7 +25,7 @@
       </div>
       <div>
         <p>Select second topping:</p>
-        <input type="radio" id="mushroom" name="topping1" value="mushroom">
+        <input type="radio" id="mushroom" name="topping1" value="mushroom" checked="checked">
         <label for="mushroom">Mushroom</label>
         <input type="radio" id="peppers" name="topping1" value="peppers">
         <label for="peppers">Peppers</label>
@@ -35,7 +35,7 @@
       </div>
       <div>
         <p>Select pizza size:</p>
-        <input type="radio" id="small" name="size" value="small">
+        <input type="radio" id="small" name="size" value="small" checked="checked">
         <label for="small">Small</label>
         <input type="radio" id="medium" name="size" value="medium">
         <label for="medium">Medium</label>
@@ -45,7 +45,9 @@
     </div>
     <div>
       <button id="submit">Submit</button>
-    </div>
+    </div><button id="reset">Reset</button><div>
+    
+  </div>
     <div>
       <p>Your pizza cost $</p>
       <ul><span id="pizzaCost"></span></ul>
