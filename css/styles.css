@@ -1,0 +1,25 @@
+form {
+  background-color: #e5f5f8;
+  border-radius: 10px;
+  font-family: Avenir;
+  padding: 20px;
+  width: 400px;
+}
+
+#form-prompt {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+button { margin-top: auto; }
+
+button:hover, input:hover, label:hover { cursor: pointer; }
+
+#container { 
+    background-image: url(img/images.jpg); 
+    background-position: center center; 
+    background-size: 100% 100%; 
+} 
+
+
