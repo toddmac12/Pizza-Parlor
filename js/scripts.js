@@ -28,7 +28,9 @@ $(document).ready(function () {
     const userTopping1 = $("input[type=radio][name=topping1]:checked").val();
     const userSize = $("input[type=radio][name=size]:checked").val();
     let newPizzaParlor = new PizzaParlor(userTopping, userTopping1, userSize);
+    newPizzaParlor.orderPizza();
     newPizzaParlor.costOfOrder();
+   $("#pizzaOrder").html(newPizzaParlor.orderPizza());
     $("#pizzaCost").html(newPizzaParlor.cost);
   });
 });

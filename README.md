@@ -77,18 +77,20 @@ Expected Output: "mushroom"
 Code: this.size ="large"
 
 Expected Output:"large" 
-4 
-Test: 
 
-Code: 
+4 Test: Test to calculation of cost of pizza
 
-Expected Output: 
-5 
-Test: 
+Code: if (this.size === "small") {
+    this.cost += 10;
 
-Code: 
+Expected Output: small pizza = 10
 
-Expected Output: 
+5 Test: List items ordered
+
+Code: PizzaParlor.prototype.orderPizza = function () {
+  return this.topping + this.topping1 + this.size;
+
+Expected Output: PepperoniMushroomSmall
 
 
 ## Setup/Installation Requirements
