@@ -12,32 +12,45 @@
 <body>
 
   <div id="container">
-    <p>Select first topping:</p>
+    <h1>Place your pizza order. Chose only item for each selection</h1>
     <div>
+      <div>
+        <p>Select first topping:</p>
         <input type="radio" id="pepperoni" name="topping" value="pepperoni">
         <label for="pepperoni">Pepperoni</label>
-         <input type="radio" id="Sausage" name="topping" value="sausage">
-        <label for="sausage">Sausage</label>
-         <input type="radio" id="bacon" name="topping" value="bacon">
-        <label for="bacon">Bacon</label>
-
-         <input type="radio" id="pepperoni" name="topping" value="pepperoni">
-         <label for="pepperoni">Pepperoni</label>
-         <input type="radio" id="Sausage" name="topping" value="sausage">
-        <label for="sausage">Sausage</label>
-         <input type="radio" id="bacon" name="topping" value="bacon">
-        <label for="bacon">Bacon</label><input 
-
-        type="radio" id="pepperoni" name="topping" value="pepperoni">
-        <label for="pepperoni">Pepperoni</label>
-        <input type="radio" id="Sausage" name="topping" value="sausage">
+        <input type="radio" id="sausage" name="topping" value="sausage">
         <label for="sausage">Sausage</label>
         <input type="radio" id="bacon" name="topping" value="bacon">
         <label for="bacon">Bacon</label>
+      </div>
+      <div>
+        <p>Select second topping:</p>
+        <input type="radio" id="mushroom" name="topping1" value="mushroom">
+        <label for="mushroom">Mushroom</label>
+        <input type="radio" id="peppers" name="topping1" value="peppers">
+        <label for="peppers">Peppers</label>
+        <input type="radio" id="onions" name="topping1" value="onions">
+        <label for="onions">Onions</label>
 
+      </div>
+      <div>
+        <p>Select pizza size:</p>
+        <input type="radio" id="small" name="size" value="small">
+        <label for="small">Small</label>
+        <input type="radio" id="medium" name="size" value="medium">
+        <label for="medium">Medium</label>
+        <input type="radio" id="large" name="size" value="large">
+        <label for="large">Large</label>
+      </div>
     </div>
-    <button id="submit">Submit</button>
+    <div>
+      <button id="submit">Submit</button>
     </div>
+    <div>
+      <p>Your pizza cost $</p>
+      <ul><span id="pizzaCost"></span></ul>
+    </div>
+</div>
 </body>
 
 </html>
