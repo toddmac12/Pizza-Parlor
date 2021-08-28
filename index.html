@@ -1,18 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
-  <title></title>
+  <title>Pizza Parlor</title>
 </head>
 
 <body>
-
+  <h1>Pizza Parlor</h1>
   <div id="container">
-    <h1>Place your pizza order. Chose only item for each selection</h1>
+    <h2>Place your pizza order.</h2>
+    <h3>You can only select one item from each selection.</h3>
     <div>
       <div>
         <p>Select first topping:</p>
@@ -31,7 +35,6 @@
         <label for="peppers">Peppers</label>
         <input type="radio" id="onions" name="topping1" value="onions">
         <label for="onions">Onions</label>
-
       </div>
       <div>
         <p>Select pizza size:</p>
@@ -45,16 +48,11 @@
     </div>
     <div>
       <button id="submit">Submit</button>
-    </div><button id="reset">Reset</button><div>
-    
-  </div>
+    </div><button id="reset">Reset</button>
     <div>
-      <p>Your pizza cost $</p>
       <ul><span id="pizzaOrder"></span></ul>
-      <ul><span id="pizzaCost"></span></ul>
-
     </div>
-</div>
+  </div>
 </body>
 
 </html>

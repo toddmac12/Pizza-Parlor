@@ -8,7 +8,7 @@ function PizzaParlor(topping, topping1, size) {
 }
 
 PizzaParlor.prototype.orderPizza = function () {
-  return this.topping + this.topping1 + this.size;
+  return "You ordered a "+ this.size + " sized pizza with " + this.topping+ " and " + this.topping1 + "." + " The cost of your order is $"+ this.cost +".";
 };
 
 PizzaParlor.prototype.costOfOrder = function () {
@@ -16,7 +16,7 @@ PizzaParlor.prototype.costOfOrder = function () {
     this.cost += 10;
   } else if (this.size === "medium") {
     this.cost += 15;
-  } else if (this.size ==="large"){
+  } else if (this.size === "large") {
     this.cost += 20;
   }
 };
@@ -28,9 +28,7 @@ $(document).ready(function () {
     const userTopping1 = $("input[type=radio][name=topping1]:checked").val();
     const userSize = $("input[type=radio][name=size]:checked").val();
     let newPizzaParlor = new PizzaParlor(userTopping, userTopping1, userSize);
-    newPizzaParlor.orderPizza();
     newPizzaParlor.costOfOrder();
-   $("#pizzaOrder").html(newPizzaParlor.orderPizza());
-    $("#pizzaCost").html(newPizzaParlor.cost);
-  });
+    $("#pizzaOrder").html(newPizzaParlor.orderPizza());
+     });
 });
