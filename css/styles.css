@@ -16,10 +16,11 @@ button { margin-top: auto; }
 
 button:hover, input:hover, label:hover { cursor: pointer; }
 
-#container { 
-    background-image: url(img/images.jpg); 
-    background-position: center center; 
-    background-size: 100% 100%; 
+body { 
+  background-image: url(img\pizza.jpg); 
+  background-color: aquamarine;   
+  background-position: center center; 
+  background-size: 100% 100%; 
 } 
 
 
