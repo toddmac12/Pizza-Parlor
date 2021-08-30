@@ -13,6 +13,7 @@ Bootstrap
 VSCode
 JQuery
 Git
+Javascript
 
 ### Description
 
