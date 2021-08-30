@@ -4,13 +4,15 @@ Pizza Parlor
 #### _{Brief description of application}_
 A website for a pizza company where a user can choose one or more individual toppings (cheese, pepperoni, artichoke, anchovy, etc) and a size to order a pizza and see the final cost.
 #### By _**{List of contributors}**_
-
+Anthony McRae
 ## Technologies Used
 
 HTML
 CSS
 Bootstrap
 VSCode
+JQuery
+Git
 
 ### Description
 
